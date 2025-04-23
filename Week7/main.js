@@ -14,4 +14,4 @@ function calcGasAvg() {
 }
 
 let gasAvg = calcGasAvg();
-prompt(userName + "'s average weekly gas bill is $" + gasAvg.toFixed(2));
+alert(userName + "'s average weekly gas bill is $" + gasAvg.toFixed(2));
