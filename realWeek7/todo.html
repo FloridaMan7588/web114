@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+
+<!-- Cayden (Kay) Haun 04/29/25 -->
+
+<html lang="en" class="bg-gray-700 text-gray-200">
+
+<head>
+	<title>JS Template Page</title>
+	<meta charset="utf-8">
+</head>
+<script src="main.js"></script>
+<!-- Tailwind,,, my favorite CSS library-->
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+
+<body>
+	<h1 class="text-4xl p-4">To-Do List</h1>
+	<input type="text" id="taskInput" placeholder="Enter a new task" class="m-2 p-2 border-solid border-2 bg-gray-200 text-gray-700">
+	<button id="addTaskBtn" class="p-2 border-2 border-solid border-blue-500 bg-blue-200 text-blue-500">Add Task</button>
+	<ul id="taskList" class="p-2"></ul>
+	<hr class="p-4">
+	<h2 class="text-3xl p-1">Questions</h2>
+	<h3 class="text-2xl p-1">Why is the JavaScript textContent property safer than innerHTML?</h3>
+	<p class="p-4 text-red-400">textContent is safer than innerHTML because it does not parse HTML tags.</p>
+	<h3 class="text-2xl p-1"> Explain the relationship between an HTML attribute and a corresponding DOM property (explain the connection to
+		JavaScript). Use a specific example in your answer</h3>
+	<p class="p-4 text-red-400">HTML attributes are the properties of HTML elements. For example, the <code>href</code> attribute of an
+		<code class="font-mono">&lt;a&gt;</code> tag is a property of the DOM element. In JavaScript, you can access this property using
+		<code class="font-mono">document.getElementById("myLink").href</code>.
+	</p>
+</body>
+
+</html>
