@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.arima-font {
+	font-family: "Arima", system-ui;
+	font-optical-sizing: auto;
+	font-weight: <weight>;
+	font-style: normal;
+}

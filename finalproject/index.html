@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Cayden (Kay) Haun 05/09/25 -->
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+	<script type="text/javascript" src="questions.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<title>Javascript Jeopardy!</title>
+</head>
+
+<body class="bg-gray-900 text-white arima-font">
+	<div class="flex justify-center items-center h-screen">
+		<div class="bg-gray-800 p-10 rounded-lg shadow-lg">
+			<div id="game-header">
+				<h1 class="text-4xl font-bold mb-6">Javascript Jeopardy!</h1>
+				<p class="text-lg mb-4">Test your knowledge of JavaScript with this game!</p>
+				<p class="hidden" id="score"></p>
+			</div>
+			<button id="start-button" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+				Start Game
+			</button>
+			<div id="game-container" class="hidden grid grid-cols-1">
+				<div class="justify-center items-center mb-6 text-center">
+					<h1 class="text-4xl font-bold mb-6">Javascript Jeopardy!</h1>
+					<p class="text-lg mb-4">When entering your answer, type exactly what the options say or it will be counted wrong!</p>
+				</div>
+				<div class="grid grid-cols-4 gap-4 mt-6">
+					<div class="title-box">Document Hooks</div>
+					<div class="title-box">CSS Selectors</div>
+					<div class="title-box">JavaScript Functions</div>
+					<div class="title-box">HTML Syntax</div>
+					<div class="question-box 100 documentQuestions">100</div>
+					<div class="question-box 100 cssQuestions">100</div>
+					<div class="question-box 100 functionQuestions">100</div>
+					<div class="question-box 100 htmlQuestions">100</div>
+					<div class="question-box 200 documentQuestions">200</div>
+					<div class="question-box 200 cssQuestions">200</div>
+					<div class="question-box 200 functionQuestions">200</div>
+					<div class="question-box 200 htmlQuestions">200</div>
+					<div class="question-box 300 documentQuestions">300</div>
+					<div class="question-box 300 cssQuestions">300</div>
+					<div class="question-box 300 functionQuestions">300</div>
+					<div class="question-box 300 htmlQuestions">300</div>
+				</div>
+			</div>
+		</div>
+</body>
+
+</html>
