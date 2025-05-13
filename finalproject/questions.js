@@ -1,4 +1,4 @@
-questions ={
+questions = {
 	"documentQuestions": [
 		{
 			"question": "What is the correct JavaScript syntax to write 'Hello World' to the DOM?",

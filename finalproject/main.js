@@ -25,8 +25,8 @@ function getRandomQuestion(array) {
 
 function checkQuestion(questionBox, questionsList) {
 	let randomQuestion = getRandomQuestion(questionsList);
-	let answer = window.prompt(randomQuestion.question + "\n" + randomQuestion.options.join("\n"));
-	if (answer == randomQuestion.answer) {
+	let answer = window.prompt(randomQuestion.question + "\n" + randomQuestion.options.join("\n")).toLowerCase();
+	if (answer == randomQuestion.answer.toLowerCase()) {
 		userScore += getPoints(questionBox);
 		console.log(userScore);
 		alert("Correct! Your score is: " + userScore);
